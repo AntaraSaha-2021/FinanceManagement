@@ -1,0 +1,5 @@
+package com.example.finance.entity.AntaraEntity;
+
+public class User {
+
+}
