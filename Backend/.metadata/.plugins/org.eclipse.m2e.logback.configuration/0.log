@@ -165,3 +165,4 @@ java.net.URISyntaxException: Illegal character in path at index 21: file:/C:/Use
 2022-08-26 11:32:00,213 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-08-26 11:32:00,213 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\IMPORTANT\LTI\Trainning\Final Project\Code\Backend\FinanceMangementSystem\src\test\resources
 2022-08-26 11:32:04,820 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 21 sec
+2022-08-26 12:08:13,976 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
