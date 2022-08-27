@@ -1,0 +1,23 @@
+package com.example.finance.entity;
+
+import java.sql.Date;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="emicard")
+public class EmiCard {
+	
+	
+	//Unidirectional
+	@OneToOne(cascade=CascadeType.ALL);
+	@JoinColumn(name="card_type", referencedColumnName="card_Type")
+	private String card_type;
+	private Date validity;
+	private String card_limit;
+
+}

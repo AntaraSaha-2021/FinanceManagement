@@ -52,7 +52,6 @@ INDEX VERSION 1.131+D:\IMPORTANT\LTI\Trainning\Final Project\Code\FinanceBackEnd
 1092211029.index
 3727642126.index
 4235541100.index
-1050891118.index
 628235630.index
 207779678.index
 1754834196.index

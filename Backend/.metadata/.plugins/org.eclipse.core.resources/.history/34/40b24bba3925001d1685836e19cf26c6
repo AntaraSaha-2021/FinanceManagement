@@ -1,0 +1,18 @@
+package com.example.finance.entity;
+
+import java.sql.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="emicard")
+public class EmiCard {
+	
+	@OneToOne
+	private String card_type;
+	private Date validity;
+	private String card_limit;
+
+}
