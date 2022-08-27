@@ -3,11 +3,8 @@ package com.example.finance.entity;
 import java.sql.Date;
 import java.time.LocalDate;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
@@ -38,6 +35,12 @@ public class User{
 	private String ifsc_code;
 	private String isVerified="False";
 	private Date applied_on=Date.valueOf(LocalDate.now());
+
+	@OneToOne(
+			cascade = CascadeType.ALL,
+			mappedBy = "user"
+	)
+	private CardDetails cardtype;
 	
 	
 }
