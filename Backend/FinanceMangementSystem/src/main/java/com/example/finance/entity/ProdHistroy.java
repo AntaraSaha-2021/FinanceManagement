@@ -1,5 +1,7 @@
 package com.example.finance.entity;
 
+import java.sql.Date;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -34,9 +36,11 @@ public class ProdHistroy {
 	@ManyToOne(targetEntity= Product.class,cascade=CascadeType.ALL)
 	@JoinColumn(name="product_id",referencedColumnName="productId")
 	private Product product;
+	
 	private String p_name;
 	private float amt_paid;
 	private float emi_paid;
 	private float amt_bal;
 	private float price;
+	private Date purchaseDate;
 }
