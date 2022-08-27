@@ -1,6 +1,7 @@
 package com.example.finance.entity;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -42,5 +43,5 @@ public class ProdHistroy {
 	private float emi_paid;
 	private float amt_bal;
 	private float price;
-	private Date purchaseDate;
+	private Date purchaseDate = Date.valueOf(LocalDate.now());
 }
