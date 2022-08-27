@@ -30,14 +30,14 @@ public class User{
 	private String user_name;
 	private long ph_number;
 	private String email;
-//	private String user_password;
-//	private String address;
-//	private String card_type;
-//	private String bank_name;
-//	private String acc_number;
-//	private String ifsc_code;
-//	private String isVerified="False";
-//	private Date applied_on=Date.valueOf(LocalDate.now());
+	private String user_password;
+	private String address;
+	private String card_type;
+	private String bank_name;
+	private String acc_number;
+	private String ifsc_code;
+	private String isVerified="False";
+	private Date applied_on=Date.valueOf(LocalDate.now());
 	
 	
 }
